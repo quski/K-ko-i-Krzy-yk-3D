@@ -1,0 +1,236 @@
+object Form1: TForm1
+  Left = 161
+  Top = 51
+  Width = 1065
+  Height = 574
+  Caption = 'Tic Tac Toe v1.0'
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'MS Sans Serif'
+  Font.Style = []
+  OldCreateOrder = False
+  OnCreate = FormCreate
+  PixelsPerInch = 96
+  TextHeight = 13
+  object pole1: TImage
+    Left = 24
+    Top = 24
+    Width = 100
+    Height = 100
+    Cursor = crHandPoint
+    OnClick = pole1Click
+  end
+  object pole2: TImage
+    Left = 120
+    Top = 24
+    Width = 100
+    Height = 100
+    Cursor = crHandPoint
+    OnClick = pole2Click
+  end
+  object pole3: TImage
+    Left = 216
+    Top = 24
+    Width = 100
+    Height = 100
+    Cursor = crHandPoint
+    OnClick = pole3Click
+  end
+  object pole4: TImage
+    Left = 312
+    Top = 24
+    Width = 100
+    Height = 100
+    Cursor = crHandPoint
+    OnClick = pole4Click
+  end
+  object pole5: TImage
+    Left = 408
+    Top = 24
+    Width = 100
+    Height = 100
+    Cursor = crHandPoint
+    OnClick = pole5Click
+  end
+  object pole6: TImage
+    Left = 24
+    Top = 120
+    Width = 100
+    Height = 100
+    Cursor = crHandPoint
+    OnClick = pole6Click
+  end
+  object pole7: TImage
+    Left = 120
+    Top = 120
+    Width = 100
+    Height = 100
+    Cursor = crHandPoint
+    OnClick = pole7Click
+  end
+  object pole8: TImage
+    Left = 216
+    Top = 120
+    Width = 100
+    Height = 100
+    Cursor = crHandPoint
+    OnClick = pole8Click
+  end
+  object pole9: TImage
+    Left = 312
+    Top = 120
+    Width = 100
+    Height = 100
+    Cursor = crHandPoint
+    OnClick = pole9Click
+  end
+  object Label1: TLabel
+    Left = 616
+    Top = 48
+    Width = 182
+    Height = 37
+    Caption = 'Tura gracza:'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -32
+    Font.Name = 'MS Sans Serif'
+    Font.Style = []
+    ParentFont = False
+  end
+  object tura: TImage
+    Left = 800
+    Top = 48
+    Width = 30
+    Height = 30
+  end
+  object pole10: TImage
+    Left = 408
+    Top = 120
+    Width = 100
+    Height = 100
+    OnClick = pole10Click
+  end
+  object pole11: TImage
+    Left = 24
+    Top = 216
+    Width = 100
+    Height = 100
+    OnClick = pole11Click
+  end
+  object pole12: TImage
+    Left = 120
+    Top = 216
+    Width = 100
+    Height = 100
+    OnClick = pole12Click
+  end
+  object pole13: TImage
+    Left = 216
+    Top = 216
+    Width = 100
+    Height = 100
+    OnClick = pole13Click
+  end
+  object pole15: TImage
+    Left = 408
+    Top = 216
+    Width = 100
+    Height = 100
+    OnClick = pole15Click
+  end
+  object pole14: TImage
+    Left = 312
+    Top = 216
+    Width = 100
+    Height = 100
+    OnClick = pole14Click
+  end
+  object pole16: TImage
+    Left = 24
+    Top = 312
+    Width = 100
+    Height = 100
+    OnClick = pole16Click
+  end
+  object pole17: TImage
+    Left = 120
+    Top = 312
+    Width = 100
+    Height = 100
+    OnClick = pole17Click
+  end
+  object pole18: TImage
+    Left = 216
+    Top = 312
+    Width = 100
+    Height = 100
+    OnClick = pole18Click
+  end
+  object pole19: TImage
+    Left = 312
+    Top = 312
+    Width = 100
+    Height = 100
+    OnClick = pole19Click
+  end
+  object pole20: TImage
+    Left = 408
+    Top = 312
+    Width = 100
+    Height = 100
+    OnClick = pole20Click
+  end
+  object pole21: TImage
+    Left = 24
+    Top = 408
+    Width = 100
+    Height = 100
+    OnClick = pole21Click
+  end
+  object pole22: TImage
+    Left = 120
+    Top = 408
+    Width = 100
+    Height = 100
+    OnClick = pole22Click
+  end
+  object pole23: TImage
+    Left = 216
+    Top = 408
+    Width = 100
+    Height = 100
+    OnClick = pole23Click
+  end
+  object pole24: TImage
+    Left = 312
+    Top = 408
+    Width = 100
+    Height = 100
+    OnClick = pole24Click
+  end
+  object pole25: TImage
+    Left = 408
+    Top = 408
+    Width = 100
+    Height = 100
+    OnClick = pole25Click
+  end
+  object Button1: TButton
+    Left = 640
+    Top = 152
+    Width = 177
+    Height = 73
+    Cursor = crHandPoint
+    Caption = 'Od nowa'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -32
+    Font.Name = 'MS Sans Serif'
+    Font.Style = []
+    ParentFont = False
+    TabOrder = 0
+    OnClick = FormCreate
+  end
+end
